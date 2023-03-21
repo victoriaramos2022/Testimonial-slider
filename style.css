@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FDEEDC;
+}
+
+.testimonial-container{
+    width: 500px;
+    height: 100px;
+    background-color: #FFD8A9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #F1A661;
+    min-width: 400px;
+    padding: 70px 20px;
+    margin: 5px;
+    color: #E38B29;
+    position: relative;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+
+}
+
+.usermane{
+    font-size: 13px;
+    font-weight: 100;
+}
